@@ -1,0 +1,75 @@
+
+.header h1 {
+    color: white;
+    background:cadetblue;
+    float:left;
+    font-size:35px;
+    height: 40px;
+    padding: 20px;
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    border-bottom: 2px solid grey;
+}
+
+.links {
+    color: gray;
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 25px;
+    word-spacing: 20px;
+    margin-right: 20px;
+
+}
+
+/* Words */
+.words {
+    line-height: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight:normal;
+    word-wrap: wrap break-word;
+    margin-left:10px;
+    
+
+
+}
+
+.links ul li {
+    display: inline-block;
+}
+
+/* How to add a background image? */
+body{
+background: url("../images/pink_dust.png")
+}
+
+/* Center box */
+.centerBox {
+    background: white;
+    width: 75%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+/* About Me */
+.aboutMe {
+    font-size: 35px;
+    color:cadetblue;
+    width: 90%;
+    margin-left:10px;
+    background-color: white;
+    height: 80px;
+    border-bottom: 2px solid gray;
+
+}
+
+/* Image */
+.image {
+    margin-left:10px;
+}
+
