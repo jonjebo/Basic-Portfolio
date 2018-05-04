@@ -15,6 +15,12 @@
     border-bottom: 2px solid grey;
 }
 
+/*header centering*/
+.center {
+    width:960px;
+    margin:0 auto;
+}
+
 .links {
     color: gray;
     float: right;
@@ -26,17 +32,19 @@
 
 }
 
+/*Resizing Form */
+.resizingform {
+    padding: 20px; 
+    width:800px;
+}
+
 /* Words */
 .words {
-    line-height: 20px;
+    line-height: 25px;
+    padding:15px;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight:normal;
-    word-wrap: wrap break-word;
-    margin-left:10px;
-    
-
-
 }
 
 .links ul li {
@@ -51,25 +59,34 @@ background: url("../images/pink_dust.png")
 /* Center box */
 .centerBox {
     background: white;
-    width: 75%;
-    margin: auto;
-    margin-top: 40px;
+    width: 960px;
+    margin:0 auto;
+    margin-top: 75px;
 }
 
 /* About Me */
 .aboutMe {
     font-size: 35px;
     color:cadetblue;
-    width: 90%;
-    margin-left:10px;
+    width: 100%;
+    padding-top: 30px;
+    margin:0 auto;
     background-color: white;
-    height: 80px;
+    height: 60px;
     border-bottom: 2px solid gray;
 
 }
 
-/* Image */
-.image {
-    margin-left:10px;
+.image{
+    float: left;
+    padding-right:15px;
+    padding-bottom:15px;
 }
+
+/*link colors and design*/
+a {
+    color:gray;
+    text-decoration: none;
+}
+
 
